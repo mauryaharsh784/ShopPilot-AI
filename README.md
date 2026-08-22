@@ -428,29 +428,40 @@ ShopPilot-AI/
 
 # 📸 Screenshots
 
-Add application screenshots inside the `screenshots` folder.
+The following screenshots demonstrate the main features of ShopPilot AI.
 
-Recommended screenshots:
+## 🏠 Home Page
 
-- Home Page
-- AI Shopping Agent
-- Product Search
-- Product Details
-- Product Comparison
-- Smart Cart
-- AI Growth Dashboard
+![ShopPilot AI Home Page](docs/screenshots/home.png)
 
-Example screenshot files:
+## 🤖 AI Shopping Agent
 
-```text
-screenshots/
-├── home.png
-├── ai-agent.png
-├── products.png
-├── comparison.png
-├── cart.png
-└── dashboard.png
-```
+![AI Shopping Agent](docs/screenshots/AI%20Shopping%20Agent.png)
+
+## 🔎 Product Search
+
+![Product Search](docs/screenshots/Product%20Search.png)
+
+## 📦 Product Details
+
+![Product Details](docs/screenshots/Product%20Details.png)
+
+## ⚖️ Product Comparison
+
+![Product Comparison](docs/screenshots/Product%20Comparison.png)
+
+## 🛒 Smart Cart
+
+![Smart Cart](docs/screenshots/Smart%20Cart.png)
+
+## 📈 AI Growth Dashboard
+
+![AI Growth Dashboard](docs/screenshots/AI%20Growth%20Dashboard.png)
+
+---
+
+
+
 
 ---
 
