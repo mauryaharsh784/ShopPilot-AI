@@ -112,6 +112,12 @@ export function CartPage() {
 
 
   async function checkout() {
+    // User must be logged in before payment
+    if (!user) {
+      toast.error("Please sign in first");
+      return;
+    }
+
     try {
       /*
        * Step 1:
@@ -125,9 +131,7 @@ export function CartPage() {
        * Step 2:
        * Check Razorpay script.
        */
-      if (
-        !window.Razorpay
-      ) {
+      if (!window.Razorpay) {
         toast.error(
           "Razorpay failed to load. Please refresh the page.",
         );
